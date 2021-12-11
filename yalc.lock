@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "rchain-toolkit": {
+      "signature": "566f3cbd37bc4103fe006e07e3cf60b1",
+      "file": true
+    }
+  }
+}

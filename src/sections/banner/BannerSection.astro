@@ -1,0 +1,21 @@
+---
+import {Markdown} from "astro/components";
+
+import HeaderLayout from '@/layouts/HeaderLayout.astro';
+---
+
+<section>
+<div class="d-flex text-center text-white bg-dark hero-content">
+    <div class="cover-container d-flex w-100 h-100 p-1 mx-auto flex-column">
+    
+    <HeaderLayout />
+    
+    <Markdown >
+      <slot />
+    </Markdown>
+
+    <div class="mt-auto text-white-50" style="color: #A93226;">
+    </div>
+    </div>
+</div>
+</section>
